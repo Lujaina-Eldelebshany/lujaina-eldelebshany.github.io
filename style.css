@@ -26,7 +26,13 @@ body{
     clear: both;
 }
 
-img {
+mark{
+    color: #949494;
+    background-color: #ffffff;
+    font-weight:bold;
+}
+
+img{
     object-fit: cover;
     width: 230px;
     height: 230px;
@@ -98,7 +104,7 @@ section {
 
 #main-left {
         border-right: 1px solid lightgray;
-        height: 100%;
+        height: 90%;
         text-align: center;
 }
 
@@ -142,10 +148,17 @@ p {
 
 label{
         font-size: 1em;
-        color: rgb(103, 103, 98);
+        color: rgb(84, 84, 84);
         font-weight: 100;
         margin-bottom: 1em;
         font-family: 'Roboto', sans-serif;
+}
+
+.progress-bar{
+    text-align: center;
+    width: 470%;
+    height: 40px;
+    
 }
 
 footer {
@@ -245,9 +258,9 @@ li{
         padding: 10px;
     }
     #main-left {
-        border-bottom: 1px solid lightgray;
+        border-bottom: 0.5% solid lightgray;
         border-right: none;
-        right: 50px;
+        right: 20%;
         width: 80%;
         text-align: center;
 
@@ -280,7 +293,7 @@ li{
     #main-right > .progress-bar{
         text-align: center;
         width: 470%;
-        height: 30px;
+        height: 40px;
         display: inline-block;
         align-self: auto;
     }
